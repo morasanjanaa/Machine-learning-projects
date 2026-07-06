@@ -11,10 +11,7 @@ st.set_page_config(
     layout="centered"
 )
 
-BASE_DIR = Path(__file__).parent
-MODEL_PATH = BASE_DIR / "model.pkl"
-
-model = joblib.load(MODEL_PATH)
+model = joblib.load("Insurance-Prediction/model.pkl")
 
 st.title("🏥 Insurance Charges Prediction")
 
