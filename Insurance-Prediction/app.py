@@ -1,6 +1,9 @@
 import streamlit as st
 import pandas as pd
 import joblib
+from pathlib import Path
+import joblib
+
 
 st.set_page_config(
     page_title="Insurance Charges Prediction",
@@ -8,7 +11,10 @@ st.set_page_config(
     layout="centered"
 )
 
-model = joblib.load("model.pkl")
+BASE_DIR = Path(__file__).parent
+MODEL_PATH = BASE_DIR / "model.pkl"
+
+model = joblib.load(MODEL_PATH)
 
 st.title("🏥 Insurance Charges Prediction")
 
