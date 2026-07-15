@@ -14,7 +14,7 @@ A Machine Learning project that predicts the selling price of used Ford cars bas
 
 🚀 **Live Demo:** https://ford-car-prediction.streamlit.app/
 
-###❤️ Heart Disease Prediction
+### ❤️ Heart Disease Prediction
 
 A Machine Learning project that predicts the likelihood of heart disease based on patient clinical information. Built using **Python, Scikit-learn, and Streamlit** with a complete preprocessing pipeline, automatic model selection, and an interactive web application.
 
